@@ -1,0 +1,2 @@
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\PesagemDiaria.UWP.csproj;arm
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\PesagemDiaria.csproj;neutral

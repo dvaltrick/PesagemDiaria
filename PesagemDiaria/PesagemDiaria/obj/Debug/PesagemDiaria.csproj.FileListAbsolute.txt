@@ -1,0 +1,10 @@
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\PesagemDiaria.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\PesagemDiaria.pdb
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.pdb
