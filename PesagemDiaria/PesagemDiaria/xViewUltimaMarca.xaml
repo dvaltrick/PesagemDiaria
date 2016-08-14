@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PesagemDiaria.xViewUltimaMarca" 
+             BackgroundColor="White" 
+             HorizontalOptions="Fill">
+  <StackLayout VerticalOptions="StartAndExpand" 
+               HorizontalOptions="Fill" 
+               BackgroundColor="White">
+    <Label x:Name="lTitulo"
+           Text=" Última Marcação" 
+           VerticalOptions="StartAndExpand" 
+           HorizontalOptions="Fill"
+           TextColor="White"
+           BackgroundColor="#2196F3"
+           FontSize="18"
+           FontAttributes="Bold"/>
+    <Label x:Name="lPeso"
+           VerticalOptions="StartAndExpand"
+           HorizontalOptions="StartAndExpand"
+           TextColor="#2196F3"
+           FontSize="28"/>
+    <Label x:Name="lData"
+           VerticalOptions="StartAndExpand"
+           HorizontalOptions="StartAndExpand"
+           TextColor="#607D8B"
+           FontSize="14"/>
+  </StackLayout>
+</ContentView>

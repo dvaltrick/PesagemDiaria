@@ -66,6 +66,18 @@
     <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\sqlite-net-pcl\1.1.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\SQLitePCL.bundle_green\0.9.2\lib\uap10.0\SQLitePCL.batteries.dll">
+      <PackagePath>SQLitePCL.batteries.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\SQLitePCL.plugin.sqlite3.uap10.0\0.9.2\lib\uap10.0\SQLitePCLPlugin_esqlite3.dll">
+      <PackagePath>SQLitePCLPlugin_esqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\SQLitePCL.raw\0.9.2\lib\uap10.0\SQLitePCL.raw.dll">
+      <PackagePath>SQLitePCL.raw.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
@@ -345,8 +357,8 @@
     <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\PesagemDiaria.dll">
       <PackagePath>PesagemDiaria.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\Plasmid-32.png">
+      <PackagePath>Plasmid-32.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -374,6 +386,12 @@
     <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Diego\.nuget\packages\SQLitePCL.native.sqlite3.v140\0.9.2\build\native\sqlite3\v140\arm\esqlite3.dll">
+      <PackagePath>esqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\PesagemDiaria.UWP.xr.xml">
       <PackagePath>PesagemDiaria.UWP.xr.xml</PackagePath>

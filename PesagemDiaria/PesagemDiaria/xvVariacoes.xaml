@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PesagemDiaria.xvVariacoes">
+  <StackLayout VerticalOptions="StartAndExpand"
+               HorizontalOptions="Fill"
+               BackgroundColor="White">
+    <Label x:Name="lTitulo"
+           VerticalOptions="StartAndExpand"
+           HorizontalOptions="Fill"
+           TextColor="White"
+           BackgroundColor="#2196F3"
+           FontSize="15"
+           FontAttributes="Bold"/>
+    <Label x:Name="lVar"
+           VerticalOptions="StartAndExpand"
+           HorizontalOptions="StartAndExpand"
+           FontSize="23"/>
+    <Label x:Name="lPeso"
+           VerticalOptions="StartAndExpand"
+           HorizontalOptions="StartAndExpand"
+           TextColor="#0D47A1"
+           FontSize="15"/>
+  </StackLayout>
+
+</ContentView>

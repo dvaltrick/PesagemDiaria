@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PesagemDiaria.xAddPeso"
+             BackgroundColor="#2196F3">
+  <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="#2196F3">
+    <DatePicker x:Name="dpData" VerticalOptions="CenterAndExpand"  >
+      <DatePicker.Format>dd/MM/yyyy</DatePicker.Format>
+    </DatePicker>
+    <Entry Keyboard="Numeric" 
+           VerticalOptions="CenterAndExpand"
+           Placeholder="0,00"
+           x:Name="vPeso" />
+    <Button x:Name="btSalvar" Text="Salvar" BackgroundColor="#0D47A1" TextColor="White" Clicked="btConfirmaOnClick" />
+    <Button x:Name="btCancelar" Text="Cancelar" BackgroundColor="#0D47A1" TextColor="White" Clicked="onButtonClickedCancelar" />
+  </StackLayout>
+</ContentPage>
