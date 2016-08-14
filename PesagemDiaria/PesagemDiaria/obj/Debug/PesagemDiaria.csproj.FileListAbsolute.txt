@@ -8,3 +8,11 @@ C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.csprojResolveAssemblyReference.cache
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.dll
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.pdb
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\SQLite-net.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\SQLitePCL.batteries.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\SQLitePCL.raw.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\bin\Debug\SQLite-net.xml
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xAddPeso.xaml.g.cs
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xViewUltimaMarca.xaml.g.cs
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xvVariacoes.xaml.g.cs
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xvPercVariacao.xaml.g.cs

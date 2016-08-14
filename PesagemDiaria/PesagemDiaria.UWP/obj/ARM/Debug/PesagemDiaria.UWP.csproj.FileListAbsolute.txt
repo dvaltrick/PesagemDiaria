@@ -197,3 +197,10 @@ C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\esqlite3.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\SQLite-net.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\SQLitePCL.batteries.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\SQLitePCLPlugin_esqlite3.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\SQLitePCL.raw.dll
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\SQLitePCL.raw.pri.xml
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\PesagemDiaria.UWP.csproj.GenerateResource.Cache
