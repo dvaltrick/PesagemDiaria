@@ -1,3 +1,5 @@
+PS: Até o momento testado apenas em Windows 10 Mobile /Just tested in Windows 10 mobile untill this time
+
 App para controle diário de peso:
 
 Funcionalidades implementadas:
