@@ -10,19 +10,30 @@ namespace PesagemDiaria
 {
     public class pgMain : ContentPage
     {
+        xViewUltimaMarca ultimaMarca;
+        Grid grid;
+
         public pgMain()
         {
             BackgroundColor = Color.White;
             Title = "Pesagem Diaria";
-            
+
             ToolbarItems.Add(new ToolbarItem("Marcar", "Plasmid-32.png", async () =>
             {
                 await Navigation.PushModalAsync(new xAddPeso());
             }));
 
-            xViewUltimaMarca ultimaMarca = new xViewUltimaMarca();
+            ToolbarItems.Add(new ToolbarItem("Listar","View Details-32.png", async () =>
+            {
+                await Navigation.PushModalAsync(new xListagem());
+            }));
 
-            Grid grid = new Grid
+            ToolbarItems.Add(new ToolbarItem("Resultados", "Combo Chart-64.png", async () =>
+            {
+                await Navigation.PushModalAsync(new xAddPeso());
+            }));
+
+            grid = new Grid
             {
                 Padding = new Thickness(0,50,0,0),
                 VerticalOptions = LayoutOptions.Center,
@@ -41,13 +52,7 @@ namespace PesagemDiaria
                 }
             };
 
-            float pesoAtual = 103.4f;
-            float pesoAntigo = 104.1f;
-
-            grid.Children.Add(new xvVariacoes(" Dia", pesoAtual, pesoAntigo),0,0);
-            grid.Children.Add(new xvVariacoes(" Semana", pesoAtual, pesoAntigo), 1, 0);
-            grid.Children.Add(new xvVariacoes(" Mês", pesoAtual, pesoAntigo), 0, 1);
-            grid.Children.Add(new xvVariacoes(" Geral", pesoAtual, pesoAntigo), 1, 1);
+            atualizaInfo();
 
             Content = new StackLayout
             {
@@ -61,7 +66,29 @@ namespace PesagemDiaria
         }
 
         public void atualizaInfo() {
+            ultimaMarca = new xViewUltimaMarca();
 
+            Pesagem pesoAtual = App.Database.retornaUltima();
+            Pesagem pesoAntigo = App.Database.retornaLancamento(2);
+
+            grid.Children.Add(new xvVariacoes(" Dia", pesoAtual.peso, pesoAntigo.peso), 0, 0);
+
+            pesoAntigo = App.Database.retornaLancamento(7);
+            grid.Children.Add(new xvVariacoes(" Semana", pesoAtual.peso, pesoAntigo.peso), 1, 0);
+
+            pesoAntigo = App.Database.retornaLancamento(30);
+            grid.Children.Add(new xvVariacoes(" Mês", pesoAtual.peso, pesoAntigo.peso), 0, 1);
+
+            pesoAntigo = App.Database.retornaPrimeira();
+            grid.Children.Add(new xvVariacoes(" Geral", pesoAtual.peso, pesoAntigo.peso), 1, 1);
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            atualizaInfo();
+        }
+
     }
 }

@@ -14,7 +14,7 @@ namespace PesagemDiaria
         {
             Pesagem ultima = new Pesagem();
 
-            InitializeComponent();
+            InitializeComponent(); 
 
             if (!App.Database.existeLancamento())
             {
@@ -26,6 +26,7 @@ namespace PesagemDiaria
                 lPeso.Text = " " + String.Format("{0:0.###}", ultima.peso) + " Kg ";
                 lData.Text = " " + "Atualizado em: " + ultima.data.ToString("dd/MM/yyyy");  
             }
+            
 
         }
     }

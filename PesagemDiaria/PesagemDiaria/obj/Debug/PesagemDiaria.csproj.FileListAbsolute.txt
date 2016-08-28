@@ -16,3 +16,4 @@ C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xViewUltimaMarca.xaml.g.cs
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xvVariacoes.xaml.g.cs
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xvPercVariacao.xaml.g.cs
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria\obj\Debug\PesagemDiaria.xListagem.xaml.g.cs

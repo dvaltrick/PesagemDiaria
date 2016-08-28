@@ -14,12 +14,12 @@ namespace PesagemDiaria
         {
             float variacao = 0; 
 
-            InitializeComponent();
-
+            InitializeComponent();  
+             
             lTitulo.Text = tipo;
             lPeso.Text = " " + String.Format("{0:0.###}", peso) + " Kg "; ;
 
-            variacao = pesoNovo / peso - 1;
+            variacao = (pesoNovo / peso - 1) * 100;
 
             if (variacao > 0)
             {

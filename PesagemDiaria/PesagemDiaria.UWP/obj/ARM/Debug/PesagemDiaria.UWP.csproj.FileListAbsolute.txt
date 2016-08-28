@@ -204,3 +204,6 @@ C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\SQLitePCL.raw.dll
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\SQLitePCL.raw.pri.xml
 C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\PesagemDiaria.UWP.csproj.GenerateResource.Cache
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\resources.en-us.resfiles
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\obj\ARM\Debug\resources.en-us.resfiles.intermediate
+C:\Users\Diego\Documents\Code\Xamarin\PesagemDiaria\PesagemDiaria\PesagemDiaria.UWP\bin\ARM\Debug\XLabs.Forms.Charting.dll

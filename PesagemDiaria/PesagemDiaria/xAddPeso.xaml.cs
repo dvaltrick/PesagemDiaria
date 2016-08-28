@@ -20,7 +20,11 @@ namespace PesagemDiaria
 
         public void btConfirmaOnClick(Object sender, EventArgs args)
         {
-            peso = float.Parse(vPeso.Text.ToString().Replace(",","."));
+            peso = float.Parse(vPeso.Text.ToString()); 
+            if (peso > 300) {
+                peso = float.Parse(vPeso.Text.ToString().Replace(",", ".")); 
+            }
+
             data = dpData.Date;
 
             if (peso > 0)
@@ -33,7 +37,7 @@ namespace PesagemDiaria
 
                 DisplayAlert("Confirmação", "Pesagem salva com sucesso.", "OK");
 
-                base.OnBackButtonPressed();
+                base.SendBackButtonPressed();
             }
             else
             {
@@ -42,7 +46,7 @@ namespace PesagemDiaria
         }
 
         public void onButtonClickedCancelar(Object sender, EventArgs e) {
-            base.OnBackButtonPressed();
+            base.SendBackButtonPressed();
         }
     }
 }

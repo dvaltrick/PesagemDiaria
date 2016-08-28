@@ -8,9 +8,9 @@
     <Label x:Name="lTitulo"
            VerticalOptions="StartAndExpand"
            HorizontalOptions="Fill"
-           TextColor="White"
+           TextColor="White"   
            BackgroundColor="#2196F3"
-           FontSize="15"
+           FontSize="15" 
            FontAttributes="Bold"/>
     <Label x:Name="lVar"
            VerticalOptions="StartAndExpand"
