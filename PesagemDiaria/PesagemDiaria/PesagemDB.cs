@@ -33,6 +33,11 @@ namespace PesagemDiaria
 
         }
 
+        public List<Pesagem> listagem() {
+            var qry = database.Query<Pesagem>("SELECT * FROM [Pesagem] ORDER BY id desc");
+            return qry;
+        }
+
         public Pesagem retornaUltima()
         {
             var qry = database.Query<Pesagem>("SELECT * FROM [Pesagem] ORDER BY id desc");
@@ -43,6 +48,42 @@ namespace PesagemDiaria
             else
             {
                 return null;
+            }
+
+        }
+
+        public Pesagem retornaPrimeira()
+        {
+            var qry = database.Query<Pesagem>("SELECT * FROM [Pesagem] ORDER BY id");
+            if (qry.Count > 0)
+            {
+                return qry[0];
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+
+        public Pesagem retornaLancamento(int qtdDias)
+        {
+            var qry = database.Query<Pesagem>("SELECT * FROM [Pesagem] ORDER BY id desc");
+            if (qry.Count > (qtdDias-1))
+            {
+                return qry[qtdDias-1];
+            }
+            else
+            {
+                if (qtdDias > 0)
+                {
+                    return App.Database.retornaLancamento(qtdDias - 1);
+                }
+                else {
+                    Pesagem pesoZero = new Pesagem();
+                    pesoZero.peso = 0; 
+                    return pesoZero;
+                }
             }
 
         }

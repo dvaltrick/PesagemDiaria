@@ -5,10 +5,10 @@
              BackgroundColor="White" 
              HorizontalOptions="Fill">
   <StackLayout VerticalOptions="StartAndExpand" 
-               HorizontalOptions="Fill" 
+               HorizontalOptions="Fill"    
                BackgroundColor="White">
     <Label x:Name="lTitulo"
-           Text=" Última Marcação" 
+           Text=" Última Marcação"  
            VerticalOptions="StartAndExpand" 
            HorizontalOptions="Fill"
            TextColor="White"

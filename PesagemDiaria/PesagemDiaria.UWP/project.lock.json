@@ -1857,6 +1857,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-arm": {
@@ -3567,6 +3578,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
@@ -5240,6 +5262,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
         }
       }
     },
@@ -6957,6 +6990,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
@@ -8630,6 +8674,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
         }
       }
     },
@@ -10347,6 +10402,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
@@ -12020,6 +12086,17 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "XLabs.Forms.Charting/2.0.5782": {
+        "dependencies": {
+          "Xamarin.Forms": "1.4.1.6349"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll": {}
         }
       }
     }
@@ -15332,11 +15409,34 @@
         "tools/Xamarin.Forms.Xaml.Design.dll",
         "tools/init.ps1"
       ]
+    },
+    "XLabs.Forms.Charting/2.0.5782": {
+      "sha512": "ZJvOBydKEmX7UNVRJY3HA3Zfqo0jN+aWPCM8nKB2RJAmzi7UpMHGFzigK2wXKKYUEqeYt45giA8czRQIybYrQw==",
+      "type": "package",
+      "files": [
+        "XLabs.Forms.Charting.2.0.5782.nupkg.sha512",
+        "XLabs.Forms.Charting.nuspec",
+        "lib/MonoAndroid/XLabs.Forms.Charting.Droid.dll",
+        "lib/MonoAndroid/XLabs.Forms.Charting.Droid.dll.config",
+        "lib/MonoAndroid/XLabs.Forms.Charting.Droid.xml",
+        "lib/MonoAndroid/XLabs.Forms.Charting.dll",
+        "lib/MonoAndroid/XLabs.Forms.Charting.xml",
+        "lib/Xamarin.iOS10/XLabs.Forms.Charting.dll",
+        "lib/Xamarin.iOS10/XLabs.Forms.Charting.iOS.dll",
+        "lib/Xamarin.iOS10/XLabs.Forms.Charting.iOS.dll.config",
+        "lib/Xamarin.iOS10/XLabs.Forms.Charting.iOS.xml",
+        "lib/Xamarin.iOS10/XLabs.Forms.Charting.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Forms.Charting.xml",
+        "lib/wp8/XLabs.Forms.Charting.dll",
+        "lib/wp8/XLabs.Forms.Charting.xml"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "XLabs.Forms.Charting >= 2.0.5782",
       "Xamarin.Forms >= 2.0.0.6482",
       "sqlite-net-pcl >= 1.1.2"
     ],

@@ -20,7 +20,11 @@ namespace PesagemDiaria
 
         public void btConfirmaOnClick(Object sender, EventArgs args)
         {
-            peso = float.Parse(vPeso.Text.ToString().Replace(",","."));
+            peso = float.Parse(vPeso.Text.ToString()); 
+            if (peso > 300) {
+                peso = float.Parse(vPeso.Text.ToString().Replace(",", ".")); 
+            }
+
             data = dpData.Date;
 
             if (peso > 0)
