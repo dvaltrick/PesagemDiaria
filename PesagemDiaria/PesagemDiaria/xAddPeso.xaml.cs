@@ -37,7 +37,7 @@ namespace PesagemDiaria
 
                 DisplayAlert("Confirmação", "Pesagem salva com sucesso.", "OK");
 
-                base.OnBackButtonPressed();
+                base.SendBackButtonPressed();
             }
             else
             {
@@ -46,7 +46,7 @@ namespace PesagemDiaria
         }
 
         public void onButtonClickedCancelar(Object sender, EventArgs e) {
-            base.OnBackButtonPressed();
+            base.SendBackButtonPressed();
         }
     }
 }

@@ -17,7 +17,7 @@
                 <Label Text="{Binding peso}"
                        TextColor="#0D47A1"
                        FontSize="14"/>
-                <Label Text="{Binding data}"
+                <Label Text="{Binding data,StringFormat='{0:dd/MMMM/yyyy}'}"
                        TextColor="#6a1b9a"
                        FontSize="10"/>
               </StackLayout>

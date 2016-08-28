@@ -37,10 +37,14 @@ namespace PesagemDiaria
             var mi = ((MenuItem)sender);
             App.Database.DeleteItem((int)mi.CommandParameter);
 
-            lista.Clear();
-            carregaLista();
+            //This code is used to fix a bug on ObservableCollection
+            //------------------------------------------------------
+            while (pesagens.Count > 0) {
+                pesagens.RemoveAt(0);
+            }
+            //------------------------------------------------------
 
-            DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+            carregaLista();
         }
     }
 }
